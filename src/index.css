@@ -18,6 +18,7 @@
 
 
 
+
 body {
   margin: 0;
   display: flex;
@@ -35,6 +36,16 @@ h1 {
 body {
   overflow-x: hidden;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;  /* ✅ Prevent white scroll */
+}
+
 
 @media screen and (max-width: 768px) {
   h1 {

@@ -1,0 +1,22 @@
+.footer {
+  background-color: #04354d; 
+  color: white;
+  padding: 15px 20px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 15px;
+}
+
+.icon {
+  color: #ac0505;
+  font-size: 18px;
+}
+
+.text {
+  font-size: 14px;
+}

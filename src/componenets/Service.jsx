@@ -1,5 +1,5 @@
 import ProductCard from './ProductCard';
-
+import './Service.css'
 const products = [
   {
     title: 'Salt Dosing Systems',
@@ -27,7 +27,7 @@ const Services = () => {
   return (
     <section id="services" className="py-16 px-6">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Services</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-color mb-12">Our Services</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {products.map((product, idx) => (
             <ProductCard key={idx} product={product} />

@@ -7,7 +7,7 @@
     /* Always row */
     align-items: center;
     justify-content: center;
-    background-color: #f0f0f0;
+    background-color: #f0f0f000;
     gap: 2rem;
 }
 
