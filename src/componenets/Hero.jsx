@@ -25,7 +25,7 @@ const Hero = () => {
           <a href="#home" className="hover:text-blue-700">Home</a>
           <a href="#about" className="hover:text-blue-700">About Us</a>
           <a href="#products" className="hover:text-blue-700">Products</a>
-          <a href="#gallery" className="hover:text-blue-700">Gallery</a>
+          <a href="#clients" className="hover:text-blue-700">Clients</a>
           <a href="#contact" className="hover:text-blue-700">Contact Us</a>
         </nav>
 
@@ -55,14 +55,14 @@ const Hero = () => {
             <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
             <a href="#about" onClick={() => setMenuOpen(false)}>About Us</a>
             <a href="#products" onClick={() => setMenuOpen(false)}>Products</a>
-            <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
+            <a href="#clients" onClick={() => setMenuOpen(false)}>Clients</a>
             <a href="#contact" onClick={() => setMenuOpen(false)}>Contact Us</a>
           </div>
         </div>
       </header>
 
       {/* Hero Content */}
-      <div className="hero-content">
+      <div id='home' className="hero-content">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
           Powering Progress with <br /> Precision Engineering
         </h1>
