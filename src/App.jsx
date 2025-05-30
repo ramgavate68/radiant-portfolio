@@ -5,6 +5,7 @@ import './App.css'
 import Projects from "./componenets/Projects";
 import Clients from "./componenets/Clients"
 import Contact  from "./componenets/Contact";
+import OurProjects from "./componenets/Ourproducts";
 import Footer from "./componenets/Footer";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Services />
       <Projects/>
+      <OurProjects/>
       <Clients/>
       <Contact/>
       <Footer/>
