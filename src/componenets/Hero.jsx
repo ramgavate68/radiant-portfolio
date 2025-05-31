@@ -24,7 +24,7 @@ const Hero = () => {
         <nav className="hidden md:flex gap-6 text-gray-800 font-medium">
           <a href="#home" className="hover:text-blue-700">Home</a>
           <a href="#about" className="hover:text-blue-700">About Us</a>
-          <a href="#products" className="hover:text-blue-700">Products</a>
+          <a href="#OurProducts" className="hover:text-blue-700">Our Products</a>
           <a href="#clients" className="hover:text-blue-700">Clients</a>
           <a href="#contact" className="hover:text-blue-700">Contact Us</a>
         </nav>
@@ -54,7 +54,7 @@ const Hero = () => {
           <div className="mt-12 flex flex-col gap-4">
             <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
             <a href="#about" onClick={() => setMenuOpen(false)}>About Us</a>
-            <a href="#products" onClick={() => setMenuOpen(false)}>Products</a>
+            <a href="#OurProducts" onClick={() => setMenuOpen(false)}>OurProducts</a>
             <a href="#clients" onClick={() => setMenuOpen(false)}>Clients</a>
             <a href="#contact" onClick={() => setMenuOpen(false)}>Contact Us</a>
           </div>
@@ -71,7 +71,7 @@ const Hero = () => {
         </p>
         <div className="flex gap-8 items-center">
           <div className="hidden md:flex items-center justify-center text-center text-white arrow">
-            <a href="#products">
+            <a href="#OurProducts">
               <img
                 src="/weui_arrow-filled.svg"
                 alt="Arrow"
@@ -81,7 +81,7 @@ const Hero = () => {
             </a>
           </div>
           <div>
-            <a href="#products" className="btn btn-primary link">
+            <a href="#OurProducts" className="btn btn-primary link">
               Explore Our Products
             </a>
           </div>

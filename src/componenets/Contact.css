@@ -76,7 +76,7 @@
 
 .right-box {
   width: 50%;
-  background-color: #ffffff;
+  background-color: #ffffff00;
   padding: 2rem;
   border-radius: 8px;
 }
@@ -89,20 +89,24 @@ form {
 
 input,
 textarea {
+  background: whitesmoke;
+  color: #000000;
   padding: 0.8rem;
   font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #cccccc00;
+  border-radius: none;
 }
 
 textarea {
   height: 120px;
   resize: vertical;
+  color: rgb(0, 0, 0);
+  background-color: whitesmoke;
 }
 
 button {
   background-color: #04354d;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 0.8rem;
   font-size: 1rem;
   border: none;
